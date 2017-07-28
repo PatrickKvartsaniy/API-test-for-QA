@@ -20,19 +20,22 @@ parser.add_argument('city')
 
 class Weather(Resource):
     def get(self,city_name):
-        abort_exist(city_name)
-        return weather[city_name]
+        if city_name == "Berlin":
+            return weather["Kyiv"]
+        else:
+            abort_exist(city_name)
+            return weather[city_name]
 
     def delete(self,city_name):
         abort_exist(city_name)
-        del weather[city_name]
-        return '', 202
+        if city_name == "Belgrad":
+            pass
+        else:
+            del weather[city_name]
+            return '', 202
 
     def put(self,city_name):
-        args = parser.parse_args()
-        new_city_weather = {city_name: {"some data": 25}}
-        weather[city_name] = new_city_weather[city_name]
-        return new_city_weather
+        pass
 
 
 class WeatherList(Resource):

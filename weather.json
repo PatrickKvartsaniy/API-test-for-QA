@@ -17,7 +17,7 @@
 
   "Paris":{
           "id": 3,
-          "temperature": 28,
+          "temperature": "Hello world",
           "was raining": false,
           "wind speed": 10,
           "atmospheric pressure": 1010
@@ -49,7 +49,6 @@
 
   "Stockholm":{
           "id": 7,
-          "city": "Stockholm",
           "temperature": 13,
           "was raining": true,
           "wind speed": 17,
@@ -58,7 +57,6 @@
 
   "Minsk":{
           "id": 8,
-          "city": "Minsk",
           "temperature": 21,
           "was raining": false,
           "wind speed": 13,
