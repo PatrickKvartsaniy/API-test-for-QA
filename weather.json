@@ -1,0 +1,75 @@
+{
+  "Kyiv":{
+          "id": 1,
+          "temperature": 25,
+          "was_raining": true,
+          "wind speed": 12,
+          "atmospheric pressure" : 1000
+          },
+
+  "London":{
+          "id": 2,
+          "temperature": 19,
+          "was raining": true,
+          "wind speed": 15,
+          "atmospheric pressure": 1024
+          },
+
+  "Paris":{
+          "id": 3,
+          "temperature": 28,
+          "was raining": false,
+          "wind speed": 10,
+          "atmospheric pressure": 1010
+          },
+
+  "New York":{
+          "id": 4,
+          "temperature": 22,
+          "was raining": false,
+          "wind speed": 13,
+          "atmospheric pressure": 999
+          },
+
+  "Berlin":{
+          "id": 5,
+          "temperature": 18,
+          "was raining": true,
+          "wind speed": 15,
+          "atmospheric pressure": 1009
+          },
+
+  "Oslo":{
+          "id": 6,
+          "temperature": 12,
+          "was raining": true,
+          "wind speed": 18,
+          "atmospheric pressure": 1035
+          },
+
+  "Stockholm":{
+          "id": 7,
+          "city": "Stockholm",
+          "temperature": 13,
+          "was raining": true,
+          "wind speed": 17,
+          "atmospheric pressure": 1039
+      },
+
+  "Minsk":{
+          "id": 8,
+          "city": "Minsk",
+          "temperature": 21,
+          "was raining": false,
+          "wind speed": 13,
+          "atmospheric pressure": 1011
+          },
+
+  "Belgrad":{
+          "id": 9,
+          "temperature": 26,
+          "was raining": false,
+          "wind speed": 12,
+          "atmospheric pressure": 1021
+          }
+}
