@@ -17,7 +17,7 @@
 
   "Paris":{
           "id": 3,
-          "temperature": "Hello world",
+          "temperature": "31",
           "was raining": false,
           "wind speed": 10,
           "atmospheric pressure": 1010
