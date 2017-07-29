@@ -4,7 +4,7 @@ Steps:
 
 1. Download or clone repository.
 2. Go to main directory and activate virtual environment (source venv/bin/activate).
-3. Run app (python3 api.py).
+3. Run app (python3 api.py). ==> Of course you need python3
 4. QA!
 
 !!!Example!!! usage
