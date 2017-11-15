@@ -3,7 +3,7 @@
 Steps:
 
 1. Download or clone repository.
-2. Go to main directory and activate virtual environment (source venv/bin/activate).
+2. pip3 install -r requirements.txt
 3. Run app (python3 api.py). ==> Of course you need python3
 4. QA!
 
